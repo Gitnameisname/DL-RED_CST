@@ -1,0 +1,23 @@
+#1 Data Analysis Case 1#
+Folder1:	Not L2 1
+Folder2:	Not L2 2
+Folder3:	L2_AD 1
+Folder4:	L2_AD 2
+Folder5:	L2_TD 1
+Folder6:	L2_TD 2
+Folder7:	Loop 1
+Folder8:	Loop 2
+Folder9:	Loop 3
+Folder10:	HL 6
+Folder11:	Epoch 50000
+Forder12:	Neuron 1000
+$
+
+#2 Percentile Rank Plot Group 2#
+#  Maximum 4 cases per 1 Group #
+Group1:		Not L2 1,L2_AD 1,L2_TD 1
+Group2:		Loop 1,Loop 2,Loop 3
+Group3:		HL 6,Epoch 50000,Neuron 1000
+Group4:		L2_TD 1,HL 6,Epoch 50000,Neuron 1000
+$
+

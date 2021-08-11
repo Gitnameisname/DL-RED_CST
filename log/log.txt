@@ -1,0 +1,57 @@
+Created on 2021-8-10 22:25:36
+Deep Learning Engineering Design: CST Airfoil
+Cheol-Kyun Choi
+====================================================================================================
+# input.txt
+#
+#0 Notice                                  #
+#  All data should be distinguished by tab #
+#  #is for the information of this file    #
+#  For example, To set Max iteration to 2  #
+#  Write Max loop:(\tab)2                  #
+$
+
+#1 Training info #
+Start_loop:	1
+Max_loop:	1
+Max_epoach:	1000
+mini_batch_size:	5000
+Initial_DB:		0
+re_Analysis:	0
+$
+
+#2 Hyperparmeter of ANN #
+No_Hidden_Layer:	20
+No_Neuron:	1000
+
+No_input:		5
+No_output:	8
+
+Learning_rate:	0.000001
+Activation:	relu
+Float_Precision:	FP32
+$
+
+
+#3 Init Config info #
+wu_max:	0.3,  0.3,  0.3,  0.3
+wu_min:	0.0,  0.0,  0.0, -0.2
+wl_max:	-0.1,  0.3,  0.3,  0.3
+wl_min:	-0.3, -0.3, -0.3, -0.
+wu_step:	0.1,  0.1,  0.1,  0.1
+wl_step:	0.1,  0.1,  0.1,  0.1
+$
+
+#4 Calculate Aerodynamics #
+no_process:	10
+AoA_cut:	21
+$
+#input.txt end
+====================================================================================================
+
+
+CST_Training:65 - Training Loop: 1
+CST_Training:67 - Start initialization for training ANN
+CST_ReadDB:26 - Read the database: F:\DLED CST_V03_4\DB\CST Airfoil DB 1.txt
+CST_ANNv100:141 - Data type: FP32
+CST_ANNv100:141 - Data type: FP32
